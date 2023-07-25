@@ -15,7 +15,7 @@ const App =()=>{
     <>
    
       <Navbar/>
-      <Routes>
+      <Routes basename="/ReactWebsite">
         <Route path='/'  element={<Home/>}/>
         <Route path='/about'  element={<About/>}/>
         <Route path='/service'  element={<Service/>}/>
