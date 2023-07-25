@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-color">
               <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                   LOGO

@@ -8,13 +8,13 @@ const Common = (props) => {
       <section className="d-flex align-items-center">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-10 mx-auto">
+            <div className="col-10 mx-auto banner-style">
                 <div className="row">
                     <div className="col-md-6 pt-5 pt-lg-0 d-flex justify-content-center flex-column order-lg-1 order-2">
                         <h1>{props.name}</h1>
                         <p className="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <div className="mt-3">
-                            <NavLink to={props.visit}>{props.btname}</NavLink>
+                            <NavLink to={props.visit} className="btn btn-primary">{props.btname}</NavLink>
                         </div>
                     </div>
                     <div className="col-md-6 pt-5 pt-lg-0 order-lg-2 order-1">

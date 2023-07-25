@@ -28,68 +28,69 @@ const Contact =()=>{
     
     return (
       <>
-        <div className="my-5">
-          <h1 className="text-center">Contact Us</h1>
-        </div>
-        <section className="d-flex align-items-center">
+        <section className="d-flex align-items-center banner-style">
           <div className="container-fluid">
+            <div className="my-5">
+              <h1 className="text-center">Contact Us</h1>
+            </div>
             <div className="row">
               <div className="col-lg-5 col-12 mx-auto">
                 <form onSubmit={formsubmit}>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">
-                     Full Name
+                  <div className="mb-3">
+                    <label for="exampleInputEmail1" className="form-label">
+                      Full Name
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       name="fname"
                       value={data.fname}
                       onChange={inputEvent}
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                     />
-                   
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">
-                     Phone
+                  <div className="mb-3">
+                    <label for="exampleInputPassword1" className="form-label">
+                      Phone
                     </label>
                     <input
                       type="number"
-                      class="form-control"
+                      className="form-control"
                       name="phone"
                       value={data.phone}
                       onChange={inputEvent}
                       id="exampleInputPassword1"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">
-                     Email Address
+                  <div className="mb-3">
+                    <label for="exampleInputPassword1" className="form-label">
+                      Email Address
                     </label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       name="email"
                       value={data.email}
                       onChange={inputEvent}
                       id="exampleInputPassword1"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">
-                     Message
+                  <div className="mb-3">
+                    <label for="exampleInputPassword1" className="form-label">
+                      Message
                     </label>
-           
-                    <textarea  class="form-control"  
-                    name="msg"
-                     value={data.msg}
-                     onChange={inputEvent}
-                    id="floatingTextarea2"></textarea>
+
+                    <textarea
+                      className="form-control"
+                      name="msg"
+                      value={data.msg}
+                      onChange={inputEvent}
+                      id="floatingTextarea2"
+                    ></textarea>
                   </div>
-                 
-                  <button type="submit" class="btn btn-primary">
+
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>

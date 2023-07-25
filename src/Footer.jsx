@@ -6,7 +6,7 @@ const Footer =()=>{
         <div className="container-fluid">
           <div className="row">
             <div className="col-10 mx-auto">
-              <footer className="bg-light footer">
+              <footer className="footer text-center">
                 <p>Copyright 2023 , All Right Reserved</p>
               </footer>
             </div>
