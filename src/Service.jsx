@@ -18,6 +18,7 @@ const Service = () => {
                   return (
                     <Card key={ind} imgscr={val.imgscr} title={val.title} />
                   );
+                
                 })}
               </div>
             </div>
